@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCB Testing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>PCB Testing</h1>
+        <button id="main-button">Select Product Series</button>
+        <div id="main-list-container">
+            <ul id="main-list" class="hidden">
+                <li data-series="A-series">A-series</li>
+                <li data-series="E-series">E-series</li>
+                <li data-series="TL-series">TL-series</li>
+                <li data-series="P-series">P-series</li>
+            </ul>
+        </div>
+        <div id="sub-list-container">
+            <ul id="sub-list" class="hidden"></ul>
+        </div>
+        <div id="subpart-list-container">
+            <ul id="subpart-list" class="hidden"></ul>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
